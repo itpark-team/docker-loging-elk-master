@@ -10,7 +10,6 @@ services:
           - xpack.security.enabled=false
       ports:
           - "9200:9200"
-          - "9300:9300"
       volumes:
           - ./elasticsearch_data:/usr/share/elasticsearch/data
 
